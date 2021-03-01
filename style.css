@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.nav-list {
+    font-size: 13px;
+    line-height: 15px;
+    margin: 0;
+    background: #464547;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 0;
+}
+.navbar-item {
+    list-style: none;
+    margin-right: 20px;
+}
+.navbar-item a {
+    text-decoration: none;
+   color: #FFFDFD;
+
+}
+
+.nav-button {
+    font-size: 13px;
+    line-height: 15px;
+    padding: 10px 20px;
+    background: #2A1D17;
+    color: #FFFEFE;
+    border-radius: 2px;
+    border: none;
+}
