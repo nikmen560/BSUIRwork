@@ -17,13 +17,15 @@ body {
     align-items: center;
     padding: 15px 0;
 }
+
 .navbar-item {
     list-style: none;
     margin-right: 30px;
 }
+
 .navbar-item a {
     text-decoration: none;
-   color: #FFFDFD;
+    color: #FFFDFD;
     font-family: 'Roboto', sans-serif;
 
 }
@@ -40,6 +42,7 @@ body {
     margin-right: 70px;
     margin-left: 20px;
 }
+
 /*nav-bar end*/
 
 /*header slider*/
@@ -47,24 +50,48 @@ body {
     position: relative;
 }
 
-.slider-toggler-left{
+.text {
+    color: #f2f2f2;
+
+    font-weight: bold;
+    position: absolute;
+    top: 162px;
+    left: 210px;
+    width: 100%;
+}
+.text > h1 {
+    margin: 0;
+    font-size: 96px;
+    line-height: 85px;
+}
+.text > p {
+
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 25px;
+
+}
+
+.slider-toggler-left {
     cursor: pointer;
     position: absolute;
-   background-image: url("img/Polygon.svg") ;
+    background-image: url("img/Polygon.svg");
     width: 40px;
     height: 49px;
     top: 300px;
     left: 50px;
 }
+
 .slider-toggler-right {
     cursor: pointer;
     position: absolute;
-    background-image: url("img/Polygon2.svg") ;
+    background-image: url("img/Polygon2.svg");
     width: 37px;
     height: 49px;
     top: 300px;
     right: 50px;
 }
+
 .slider-dots {
     position: absolute;
     margin-left: auto;
@@ -75,6 +102,7 @@ body {
     text-align: center;
 
 }
+
 .slider-dot {
     cursor: pointer;
     height: 10px;
@@ -86,18 +114,25 @@ body {
     display: inline-block;
     transition: background-color 0.6s ease;
 }
+
 .active {
     background: rgba(255, 253, 253, 0.8);
 }
+
 .dot:hover {
     background: rgba(255, 253, 253, 0.8);
 }
 
 .fade {
-    animation-name:fade;
+    animation-name: fade;
     animation-duration: 1.5s;
 }
+
 @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
