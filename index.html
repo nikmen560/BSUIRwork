@@ -9,8 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <script src="script/script.js"></script>
-    <script src="script/slider.js"></script>
+
 </head>
 <body>
 <div class="layout">
@@ -33,12 +32,13 @@
             <div class="slide fade">
                 <img src="img/Rectangle.png" alt="" style="width: 100%">
             </div>
-<!--            <div class="slide">-->
-<!--                <img src="img/slider%202.png" alt="" style="width: 100%">-->
-<!--            </div>-->
-            <span class="slider-toggler-left">
+            <div class="slide fade">
+                <img src="img/slider%202.png" alt="" style="width: 100%">
+            </div>
+            <span class="slider-toggler-left" onclick="plusSlides(1)">
+
             </span>
-            <span class="slider-toggler-right">
+            <span class="slider-toggler-right" onclick="plusSlides(1)">
             </span>
             <div class="slider-dots">
                 <span class="slider-dot" onclick="currentSlide(1)"></span>
@@ -56,5 +56,6 @@
 
     </footer>
 </div>
+<script src="script/slider.js"></script>
 </body>
 </html>

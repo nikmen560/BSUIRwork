@@ -53,7 +53,7 @@ body {
    background-image: url("img/Polygon.svg") ;
     width: 40px;
     height: 49px;
-    top: 200px;
+    top: 300px;
     left: 50px;
 }
 .slider-toggler-right {
@@ -62,7 +62,7 @@ body {
     background-image: url("img/Polygon2.svg") ;
     width: 37px;
     height: 49px;
-    top: 200px;
+    top: 300px;
     right: 50px;
 }
 .slider-dots {
@@ -86,7 +86,10 @@ body {
     display: inline-block;
     transition: background-color 0.6s ease;
 }
-.slider-dot-active {
+.active {
+    background: rgba(255, 253, 253, 0.8);
+}
+.dot:hover {
     background: rgba(255, 253, 253, 0.8);
 }
 
