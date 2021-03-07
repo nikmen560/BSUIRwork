@@ -1,7 +1,14 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html { overflow-x: hidden; }
 body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    background: #E5E5E5;
 }
 
 
@@ -52,7 +59,7 @@ body {
 
 .text {
     color: #f2f2f2;
-
+    max-width: 50%;
     font-weight: bold;
     position: absolute;
     top: 162px;
@@ -136,3 +143,88 @@ body {
         opacity: 1
     }
 }
+
+/*header end*/
+
+/*main*/
+
+main {
+    background: #E5E5E5;
+    margin: auto;
+    max-width: 90%;
+    margin-top: 100px;
+}
+.section-doors {
+    background: #DEAE83;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+    /*align-items: center;*/
+    position: relative;
+}
+.section-doors-left {
+    flex-direction: row-reverse;
+}
+.door-image-right {
+    position: absolute;
+    right: 0;
+    top: -30px;
+    bottom: -35px;
+}
+.door-image-left {
+    position: absolute;
+    left: 0;
+    top: -30px;
+    bottom: -35px;
+}
+
+.doors-text {
+    padding-top: 55px;
+    margin-left: 110px;
+    margin-bottom: 15px;
+    max-width: 600px;
+
+}
+.section-doors h3 {
+    color: #FFFDFD;
+    font-size: 36px;
+    line-height: 30px;
+    font-weight: bold;
+
+    margin-bottom: 15px ;
+}
+.section-doors p{
+    font-size: 14px;
+    line-height: 21px;
+}
+.section-doors-left p {
+    padding-bottom: 90px;
+}
+.section-doors-left > .doors-text {
+    padding-right: 124px;
+}
+.pros {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 46px;
+}
+.feature-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #FEFEFF;
+    text-align: center;
+    margin-right: 40px;
+
+}
+.feature-text {
+    color: #FFFBFB;
+}
+
+
