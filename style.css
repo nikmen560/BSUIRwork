@@ -690,6 +690,9 @@ width: 50%;
         font-size: 14px;
         line-height: 21px;
     }
+    .active {
+        display: block;
+    }
 }
 .hide {
     display: none;
