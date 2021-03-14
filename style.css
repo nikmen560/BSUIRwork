@@ -705,10 +705,46 @@ width: 50%;
         top: 200px;
         right: 20px;
     }
+
+    .form {
+        display: flex;
+        /*justify-content: center;*/
+        flex-direction: column;
+        align-items: center;
+        max-width: 202px;
+    }
+    .feedback-form h2 {
+        font-size: 25px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .form .form-input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #form-num-code {
+        width: 27px;
+        padding: 5px;
+        margin-bottom: 0;
+        margin-right: 5px;
+    }
+    #form-num {
+        width: 100%;
+    }
+    .form .number {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 10px;
+        /*max-width: 205px;*/
+    }
+    .number p {
+        padding-right: 5px;
+    }
     .btn-form-submit {
         padding: 0;
         /*margin: 0;*/
-        width: 100%;
+        width: 50%;
 
     }
     .footer-wrap {
