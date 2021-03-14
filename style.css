@@ -693,6 +693,79 @@ width: 50%;
     .active {
         display: block;
     }
+    .reviews-wrap {
+        position: relative;
+
+    }
+    .review-prev {
+        top: 200px;
+        left: 20px;
+    }
+    .review-next {
+        top: 200px;
+        right: 20px;
+    }
+    .btn-form-submit {
+        padding: 0;
+        /*margin: 0;*/
+        width: 100%;
+
+    }
+    .footer-wrap {
+        flex-direction: column-reverse;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .address {
+        padding-right: 45px;
+        max-width: 400px;
+        order: -1;
+    }
+    .contacts {
+        display: flex;
+        justify-content: space-between;
+        max-width: 300px;
+        padding-top: 10px;
+    }
+    .social {
+        /*order: -1;*/
+        padding-top: 0;
+    }
+    .partners p{
+        padding-bottom: 5px;
+    }
+
+    .partners-name {
+        grid-template-columns: 50px 50px 42px;
+        grid-template-rows: 29px 72px;
+        grid-gap: 1px;
+    }
+    .partners-name img {
+        width: 44px;
+        height: 23px;
+        padding-right: 45px;
+        max-width: 93px;
+    }
+
+    .partners-name img:nth-child(4) {
+        width: 40px;
+        height: 54px;
+    }
+    .footer-social {
+        display: flex;
+        justify-content: space-around;
+        max-height: 80px;
+    }
+    .footer-address {
+        display: flex;
+        flex-direction: column;
+    }
+    .address p {
+        padding-bottom: 0;
+    }
+
+
+
 }
 .hide {
     display: none;
