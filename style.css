@@ -11,14 +11,23 @@ body {
     background: #E5E5E5;
 }
 
+.layout {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 
 /*nav-bar*/
+.navbar {
+    background: #464547;
 
+}
 .nav-list {
+    max-width: 1240px;
     font-size: 13px;
     line-height: 15px;
-    margin: 0;
-    background: #464547;
+    margin: 0 auto;
+
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -29,6 +38,10 @@ body {
     list-style: none;
     margin-right: 30px;
 }
+.navbar-item:last-child {
+    margin-right: 0;
+}
+
 
 .navbar-item a {
     text-decoration: none;
@@ -46,7 +59,6 @@ body {
     border-radius: 2px;
     border: none;
     font-family: 'Roboto', sans-serif;
-    margin-right: 70px;
     margin-left: 20px;
 }
 
@@ -55,7 +67,9 @@ body {
 /*header slider*/
 .slider-container {
     position: relative;
+    width: 100%;
 }
+
 
 .text {
     color: #f2f2f2;
@@ -593,7 +607,7 @@ width: 50%;
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     .nav-list {
         display: flex;
         flex-direction: column;
@@ -607,17 +621,22 @@ width: 50%;
     }
     .navbar-item:last-child {
         order: -1;
+        padding: 0;
     }
     .nav-button {
         font-size: 16px;
         line-height: 15px;
-        padding: 10px 140px;
+        /*padding: 10px 10px;*/
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
 
     }
     .main {
         margin-top: 5px;
 
     }
+
 
     .slider-container {
         display: none;
@@ -742,10 +761,30 @@ width: 50%;
         padding-right: 5px;
     }
     .btn-form-submit {
-        padding: 0;
+        /*padding: 10px;*/
         /*margin: 0;*/
-        width: 50%;
+        width: auto;
+        word-wrap: normal;
+        padding: 10px 3px;
+        height: auto;
 
+    }
+    .footer {
+        margin-top: 5px;
+    }
+    .feedback{
+        margin-top: 5px;
+    }
+    .main {
+        margin-top: 5px;
+    }
+    .header {
+        margin-bottom: 5px;
+
+
+    }
+    .navbar {
+        margin-bottom: 5px;
     }
     .footer-wrap {
         flex-direction: column-reverse;
@@ -779,8 +818,6 @@ width: 50%;
     .partners-name img {
         width: 44px;
         height: 23px;
-        padding-right: 45px;
-        max-width: 93px;
     }
 
     .partners-name img:nth-child(4) {
